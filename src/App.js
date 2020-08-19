@@ -28,9 +28,10 @@ const App = () => {
   const indexOfFirstPost= indexOfLastPost - postsPerPage; 
   const currentPosts = posts.slice(indexOfFirstPost,indexOfLastPost)
 
+  // when user clicks on number this function will execute
 
-  const paginate=(pageNumber)=>{
-   setCurrentPage(pageNumber)
+  const paginate=(number)=>{
+   setCurrentPage(number)
   }
 
 
